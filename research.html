@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	    <title>My Research</title>
+
+	    <!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/general.css">
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		    <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		        <div class="navbar-header">
+		            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		                <span class="sr-only">Toggle navigation</span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		            </button>
+		            <a class="navbar-brand" href="index.html">Christopher Tse</a>
+		        </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		        <ul class="nav navbar-nav navbar-right">
+		            <li><a href="index.html">Home</a></li>
+		            <li class="dropdown">
+		                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+		                <ul class="dropdown-menu">
+		                    <li><a href="aboutme.html">About Me</a></li>
+		                    <li><a href="research.html">My Research</a></li>
+		                </ul>
+		            </li>
+		        </ul>
+		        </div><!-- /.navbar-collapse -->
+		    </div><!-- /.container-fluid -->
+		</nav>
+		<div class="container" style="padding-top:50px">
+			<h1>My Current Research<br/><small>Skin Analysis by Sulcus Cutis Extraction</small></h1>
+			
+			<p>My research involves studying ways to automate the analysis of skin conditions and potential early skin disease prediction. Having started not too long ago, not much progress has been made yet.</p>
+
+			<p>I am currently in the process of looking for ways to separate the little "sections" of skin that is defined by the lines which run along the skin. Current methods being tested is by using local normalization on an image of skin with black ink. I then attempt to segment the image using the sections using watershed and ridge detection.</p>
+
+			<h1>Research Equipment</h1>
+			<ul class="content">
+				<li>Processor: Intel i7-4670k</li>
+				<li>RAM: 16GB</li>
+				<li>GPU: GTX 750Ti</li>
+				<li>OS: Windows, Linux Ubuntu 15.10</li>
+			</ul>
+			<img src="images/lab-sm.jpg" alt="Lab Computer"/>
+			
+		</div>
+		<footer class="container-fluid">
+			<section class="row">
+				<div class="col-xs-12">
+					<p class="small text-center">The views and opinions expressed in this page are strictly those of the webpage author. The contents of this page have not been reviewed or approved by The University of Electro-Communications.<br/>Copyright &copy; 2016 Christopher Tse</p>
+				</div>
+			</section>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+	</body>
+</html>
